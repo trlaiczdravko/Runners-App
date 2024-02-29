@@ -1,13 +1,118 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ebebeb;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.btn {
+  background-color: black;
+  color: white;
+  display: block;
+  margin-top: 23px;
+  margin-left: 2rem;
+  height: 2rem;
+
+  /* box-shadow: inset -3px -2px 1px 2px black;
+
+  transform: skewX(-35deg);*/
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.runner-details {
+  background-color: lightgrey;
+  margin-right: 20rem;
+  height: 20rem;
+  width: 15rem;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  position: relative;
+}
+.head-runner {
+  text-align: center;
+}
+.time {
+  display: block;
+  margin-left: 3.2rem;
+}
+.name {
+  margin-left: 3.2rem;
+  display: block;
+}
+.speed {
+  margin-left: 3.2rem;
+  display: block;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+}
+
+.participants {
+  font-weight: 800;
+  margin-left: 2rem;
+}
+.runners-track div {
+  margin-right: 2rem;
+}
+.runners-track {
+  margin-left: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.list {
+  margin-top: 5rem;
+  background-color: white;
+  width: 65%;
+  height: 35rem;
+  margin-left: -15rem;
+}
+
+.aligning-speed {
+  margin-right: -20px;
+}
+
+.sidebar {
+  display: flex;
+}
+.btn-race {
+  position: absolute;
+  right: 1rem;
+  bottom: 2rem;
+  background-color: orangered;
+  color: white;
+  height: 2.1rem;
+  width: 6rem;
+  transform: skewX(-35deg);
+  display: block;
+}
+.btn-text {
+  transform: skewX(35deg);
+}
+
+.x {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  height: 15%;
+  border-top: 1px red solid;
+}
+
+.y {
+  height: 85%;
+}
+.input {
+  height: 1.8rem;
+}
+.label {
+  align-items: center;
 }
